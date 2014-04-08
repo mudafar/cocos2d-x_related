@@ -24,6 +24,14 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ****************************************************************************/
+/*
+Copyright (c) 2014 Mudafar
+GPLv3
+*/
+
+
+
+
 package org.cocos2dx.cpp;
 
 import java.lang.reflect.InvocationTargetException;
