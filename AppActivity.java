@@ -49,8 +49,7 @@ public class AppActivity extends Cocos2dxActivity {
 	
 	private static AppActivity  _appActiviy;
 	private AdView adView;
-	private static final String AD_UNIT_ID = "ca-app-pub-9384770279258522/4582861098";
-
+	private static final String AD_UNIT_ID = "ca-app-pub-0000000000000000/0000000000";
 	
 	// Helper get display screen to avoid deprecated function use
 	private Point getDisplaySize(Display d)
@@ -119,8 +118,7 @@ public class AppActivity extends Cocos2dxActivity {
 
 	        AdRequest adRequest = new AdRequest.Builder()
 	            .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-	            .addTestDevice("B25BCFB3711DD4D4E7F838B6713EC404")
-	            .addTestDevice("C1838F60F55CA6C95DD777048359EF7B")
+	            .addTestDevice("HASH_DEVICE_ID")
 	            .build();
 
 	        adView.loadAd(adRequest);
